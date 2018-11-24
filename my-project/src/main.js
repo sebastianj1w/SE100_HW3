@@ -15,7 +15,7 @@ new Vue({
   el: '#calculator',
   data: {
     title: 'Naive online calculator',
-    usage: 'I don\'t know',
+    usage: 'A simple calculator for practice, it may produce wrong answers due to the accuracy problem',
     expression: '0',
     answer: '0',
     readyNum1: false,

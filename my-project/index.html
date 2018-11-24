@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>calculator</title>
+</head>
+
+<body>
+  <div id='calculator'>
+    <h1 align="center">{{title}}</h1>
+    <hr>
+    <div align="right" style="width: 30%;margin: auto;clear: both" >
+      <label>{{ expression }}</label><br>
+      <label>=</label><br>
+      <label>{{ answer }}</label>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="1" @click="addC(1)">%</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="2" @click="addC(2)">√</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="3" @click="addC(3)">x²</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="4" @click="addC(4)">1/x</button>
+      </div>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="5" @click="addN(-1)">ANS</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="6" @click="clear(true)">C</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="7" @click="backspace()">←</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="8" @click="addC(8)">÷</button>
+      </div>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="9" @click="addN(7)">7</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="10" @click="addN(8)">8</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="11" @click="addN(9)">9</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="12" @click="addC(12)">×</button>
+      </div>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="13" @click="addN(4)">4</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="14" @click="addN(5)">5</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="15" @click="addN(6)">6</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="16" @click="addC(16)">-</button>
+      </div>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="17" @click="addN(1)">1</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="18" @click="addN(2)">2</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="19" @click="addN(3)">3</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="20" @click="addC(20)">+</button>
+      </div>
+    </div>
+    <div style="width: 62%;margin: auto;clear: both">
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="21" @click="reverse()">±</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="22" @click="addN(0)">0</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id="23" @click="addDot()">.</button>
+      </div>
+      <div style="float:left;width: 24%; text-align: center">
+        <button id='24' @click="doCalculate()">=</button>
+      </div>
+    </div>
+    <br>
+    <div>
+      <p align="center">{{usage}}</p>
+      <!-- <p align="center">{{details()}}</p> -->
+    </div>
+  </div>
+</body>
+
+</html>

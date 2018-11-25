@@ -86,4 +86,4 @@ Coverage:
 <img src="coverage.png" width="500"  />
 </div>
 
-Files are in /Calculator//test folder
+Files are in /Calculator/test folder

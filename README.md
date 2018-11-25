@@ -1,6 +1,6 @@
 # SE100_HW3
 
-a repo of an application's front-end. Using npm and Vue.js
+A repo of an application's front-end. Using npm and Vue.js
 
 ## Progress of a simple application's front-end
 
@@ -60,7 +60,7 @@ Then I can see the demo:
 ### Modify the files
 
 Modify the App.vue and index.html to create your own application.
-I place static files in the /Calculator/static folder
+I place static files in the `/Calculator/static` folder
 
 ### Run it
 
@@ -86,4 +86,4 @@ Coverage:
 <img src="coverage.png" width="500"  />
 </div>
 
-Files are in /Calculator/test folder
+Files are in `/Calculator/test` folder

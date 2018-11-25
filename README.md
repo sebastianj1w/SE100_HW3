@@ -57,3 +57,18 @@ Then I can see the demo:
 <img src="demo.png" width="900"  />
 </div>
 
+### Modify the files
+
+Modify the App.vue and index.html to create your own application.
+I place static files in the /static folder
+
+### Run it
+
+```powershell
+PS C:\1Study\JSmd\SE100_HW3\my-project> npm run dev
+```
+
+It works:
+<div  align="center">
+<img src="run.png" width="900"  />
+</div>

@@ -1,6 +1,6 @@
 # SE100_HW3
 
-A repo of an application's front-end. Using npm and Vue.js
+A repo of an application's front-end. Using npm and Vue.js.
 Because of time managing problem, I fixed the bugs offline so I did not create extra branches except `master`
 
 ## Progress of a simple application's front-end

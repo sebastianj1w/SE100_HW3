@@ -72,3 +72,8 @@ It works:
 <div  align="center">
 <img src="run.png" width="900"  />
 </div>
+
+### Unit Test
+
+Using Jest to do unit test
+Files are in /test folder

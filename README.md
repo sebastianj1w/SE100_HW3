@@ -60,7 +60,7 @@ Then I can see the demo:
 ### Modify the files
 
 Modify the App.vue and index.html to create your own application.
-I place static files in the /static folder
+I place static files in the /Calculator/static folder
 
 ### Run it
 
@@ -76,4 +76,14 @@ It works:
 ### Unit Test
 
 Using Jest to do unit test
-Files are in /test folder
+
+Testing functions passed:
+<div  align="center">
+<img src="pass.png" width="300"  />
+</div>
+Coverage:
+<div  align="center">
+<img src="coverage.png" width="500"  />
+</div>
+
+Files are in /Calculator//test folder
